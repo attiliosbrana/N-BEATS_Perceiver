@@ -7,6 +7,7 @@ This repository contains the code and resources for the paper "N-BEATS Perceiver
 - `train_N-BEATS_Perciever.ipynb`: Includes all the code to train the 54 instances of the N-BEATS Perceiver used in the paper. It also includes the code that automatically downloads the OSF data file for training. The file also includes all the hyperparameters used for training the models of the N-BEATS Perceiver paper.
 - `./data`: An empty folder intended to host the training data available in the OSF repository.
 - `./perceiver`: Contains all the source code necessary for the Perceiver model, N-BEATS modifications, losses, training schedule, optimizers, utils, portfolio sampling source code, etc.
+- `./other_models`: Contains the source code for the other models used in the paper: Original, Mish, Conv, Transformer, N-HiTS and RNNs (LSTM and GRU).
 - `./model_checkpoints`: An empty folder intended to host the trained weights of the N-BEATS Perceiver model as they get trained.
 
 ## Paper Abstract
